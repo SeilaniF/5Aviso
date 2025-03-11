@@ -9,12 +9,13 @@
     margin: 20px auto; /* Centraliza no meio da página */
     border-radius: 5px; /* Bordas arredondadas */
     animation: piscar 1s infinite alternate; /* Aplica a animação de piscar */
+    opacity: 0.8;
 }
 
 /* Animação de piscar na borda */
 @keyframes piscar {
     0% {
-        border-color: red;
+        border-color: rgb(30, 255, 0);
         background-color: #ffebee;
     }
     100% {
