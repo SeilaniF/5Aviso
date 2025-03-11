@@ -1,0 +1,24 @@
+.aviso {
+    width: 300px; /* Largura da caixa */
+    padding: 15px; /* Espaçamento interno */
+    border: 3px solid red; /* Borda vermelha */
+    background: #ffebee; /* Fundo rosado */
+    color: red; /* Texto vermelho */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Texto centralizado */
+    margin: 20px auto; /* Centraliza no meio da página */
+    border-radius: 5px; /* Bordas arredondadas */
+    animation: piscar 1s infinite alternate; /* Aplica a animação de piscar */
+}
+
+/* Animação de piscar na borda */
+@keyframes piscar {
+    0% {
+        border-color: red;
+        background-color: #ffebee;
+    }
+    100% {
+        border-color: orange;
+        background-color: #ffe0b2;
+    }
+}
